@@ -78,7 +78,7 @@ def winner(board_arr, symbol, plyr_name, turns) # rubocop:disable Metrics/Cyclom
 
   return unless turns == 9
 
-  puts "\t\t\t\t\tIt's a tie!!!"
+  puts "\t\t\t\tIt's a tie!!!"
   false
 end
 
